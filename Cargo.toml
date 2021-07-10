@@ -1,0 +1,9 @@
+[package]
+name = "proxy-checker"
+version = "0.1.0"
+authors = ["Nikolai <npv3s@skopa.dev>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1.8.0", features = ["full"] }
+reqwest = "0.11.4"
